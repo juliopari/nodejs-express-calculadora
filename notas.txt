@@ -1,0 +1,33 @@
+_1. Crear proyecto nodejs en (D:\GITHUB_JULIOPARI\nodejs-express-calculadora)
+npm init -y
+git init
+
+_2. Copiar los archivos
+.editorconfig
+.eslintrc
+.gitignore
+
+_3. Crear un archivo "index.js"
+>>
+console.log("My App");
+<<
+
+_4. Configurar el archivo "package.json"
+>>
+	scripts": {
+		"dev": "nodemon index.js",
+		"start": "node index.js",
+		"lint": "eslint"
+	}
+<<
+
+ejecutar:
+npm i nodemon eslint eslint-config-prettier eslint-plugin-prettier prettier -D
+
+_5. Ejecutar proyecto
+npm run dev
+
+_6. Instalar express
+npm i express
+
+_7. Agregar código al archivo "index.js"
